@@ -5,10 +5,11 @@ import Treeview from './treeview.js'
 import DirectChat from './direct-chat.js'
 import FullScreen from './fullscreen.js'
 import PushMenu from './push-menu.js'
+import ColorMode from './color-mode.js'
 import { initAccessibility } from './accessibility.js'
 
 /**
- * AdminLTE v4.0.0-rc5
+ * AdminLTE v4.0.0-rc6
  * Author: Colorlib
  * Website: AdminLTE.io <https://adminlte.io>
  * License: Open source - MIT <https://opensource.org/licenses/MIT>
@@ -21,7 +22,7 @@ onDOMContentLoaded(() => {
    */
   const layout = new Layout(document.body)
   layout.holdTransition()
-  
+
   /**
    * Initialize Accessibility Features - WCAG 2.1 AA Compliance
    * --------------------------------------------------------
@@ -33,10 +34,10 @@ onDOMContentLoaded(() => {
     keyboardNavigation: true,
     reducedMotion: true
   })
-  
+
   // Add semantic landmarks
   accessibilityManager.addLandmarks()
-  
+
   // Mark app as loaded after initialization
   setTimeout(() => {
     document.body.classList.add('app-loaded')
@@ -50,5 +51,6 @@ export {
   DirectChat,
   FullScreen,
   PushMenu,
+  ColorMode,
   initAccessibility
 }
