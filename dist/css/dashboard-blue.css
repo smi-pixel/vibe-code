@@ -1,0 +1,59 @@
+/* Dashboard v1 — blue panel overrides (no build required) */
+
+/* Small box widgets */
+.app-content .container-fluid > .row:first-of-type .col-lg-3:nth-child(1) .small-box {
+  background-color: #031633 !important;
+  color: #fff !important;
+}
+
+.app-content .container-fluid > .row:first-of-type .col-lg-3:nth-child(2) .small-box {
+  background-color: #084298 !important;
+  color: #fff !important;
+}
+
+.app-content .container-fluid > .row:first-of-type .col-lg-3:nth-child(3) .small-box {
+  background-color: #0d6efd !important;
+  color: #fff !important;
+}
+
+.app-content .container-fluid > .row:first-of-type .col-lg-3:nth-child(3) .small-box-footer {
+  color: #fff !important;
+}
+
+.app-content .container-fluid > .row:first-of-type .col-lg-3:nth-child(4) .small-box {
+  background-color: #6ea8fe !important;
+  color: #fff !important;
+}
+
+/* Sales Value chart card */
+.app-content .col-lg-7.connectedSortable > .card:first-child {
+  background-color: #e7f1ff !important;
+  border-color: #0d6efd !important;
+}
+
+.app-content .col-lg-7.connectedSortable > .card:first-child .card-header {
+  background-color: #cfe2ff !important;
+  border-bottom-color: #9ec5fe !important;
+}
+
+/* Direct Chat card */
+.app-content .direct-chat {
+  background-color: #cfe2ff !important;
+  border-color: #6ea8fe !important;
+}
+
+.app-content .direct-chat .card-header {
+  background-color: #9ec5fe !important;
+  border-bottom-color: #6ea8fe !important;
+}
+
+/* World map card */
+.app-content .col-lg-5.connectedSortable > .card.bg-primary {
+  background-color: #084298 !important;
+  border-color: #052c65 !important;
+}
+
+.app-content .col-lg-5.connectedSortable > .card.bg-primary .card-header,
+.app-content .col-lg-5.connectedSortable > .card.bg-primary .card-footer {
+  background-color: #052c65 !important;
+}
